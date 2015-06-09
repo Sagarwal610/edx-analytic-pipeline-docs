@@ -1,0 +1,10 @@
+importing file from hadoop-cluster 
+	modify edx-analytics-pipeline/override.cfg
+		in heading [event_logs] 
+		instead of "s3:// " use path to hadoop cluster
+		like- "hdfs://hadoop_cluster_ip:port/path_to_log_directory"
+
+
+
+
+
