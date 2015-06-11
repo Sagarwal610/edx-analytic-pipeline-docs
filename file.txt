@@ -10,6 +10,7 @@ launch-task gets paused
 	if no, then :
 		http://dba.stackexchange.com/questions/11806/why-is-drop-database-taking-so-long-mysql
         	https://askubuntu.com/questions/82374/how-do-i-start-stop-mysql-server
+        	http://dba.stackexchange.com/questions/1558/how-long-is-too-long-for-mysql-connections-to-sleep
 
 
 
