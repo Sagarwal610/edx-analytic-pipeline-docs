@@ -5,12 +5,17 @@ importing file from hadoop-cluster
 		like- "hdfs://hadoop_cluster_ip:port/path_to_log_directory"
 		
 		
-launch-task gets paused
+launch-task gets paused  [SOLVED]
 	interrupt the task and check if you can drop an existing database
 	if no, then :
 		http://dba.stackexchange.com/questions/11806/why-is-drop-database-taking-so-long-mysql
         	https://askubuntu.com/questions/82374/how-do-i-start-stop-mysql-server
         	http://dba.stackexchange.com/questions/1558/how-long-is-too-long-for-mysql-connections-to-sleep
+        	
+        	http://stackoverflow.com/questions/19801139/mysql-permanently-getting-waiting-for-table-metadata-lock
+        	http://dev.mysql.com/doc/refman/5.5/en/metadata-locking.html
+        	
+        	problem with mysql version 5.5 related to metalocks, upgrade it to 5.6
 
 
 
