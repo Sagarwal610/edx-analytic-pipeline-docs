@@ -3,6 +3,13 @@ importing file from hadoop-cluster
 		in heading [event_logs] 
 		instead of "s3:// " use path to hadoop cluster
 		like- "hdfs://hadoop_cluster_ip:port/path_to_log_directory"
+		
+		
+launch-task gets paused
+	interrupt the task and check if you can drop an existing database
+	if no, then :
+		http://dba.stackexchange.com/questions/11806/why-is-drop-database-taking-so-long-mysql
+        	https://askubuntu.com/questions/82374/how-do-i-start-stop-mysql-server
 
 
 
